@@ -11,5 +11,8 @@ public class HelloController {
         return "Hello man. This is really hard to get here.";
     }
 
+    @RequestMapping("/happy")
+    public int happy(){return 123;}
+
 
 }
